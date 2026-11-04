@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: green;
+}
+body {
+	background-color: rgb(182, 250, 197);
+	color: black;
+	font-family: sans-serif;
+}
+.nav__list {
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	margin-bottom: 30px;
+	list-style-type: none;
+}
+.nav__list-element::marker {
+	display: none;
+	visibility: hidden;
+}
+.nav__list-link {
+	transition: color 0.2s;
+}
+.container,
+.header {
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.title {
+	font-weight: 600;
+	line-height: 115%;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.title-large {
+	font-size: 48px;
+}
+.text-medium {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	margin-bottom: 20px;
+}
+.header__title {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+.article__list-element {
+	margin-bottom: 10px;
+}
+.text-article {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #535755;
+	margin-bottom: 20px;
+}
+.article__img-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+.article__img {
+	width: 80%;
+}
+.article__table {
+	border-spacing: 0; /* убирает отступы от ячеек */
+	border-collapse: collapse; /* убирает лишние линии при соединении*/
+	margin-bottom: 60px;
+}
+td,
+th,
+caption {
+	border: 2px solid black;
+	background-color: rgb(3, 237, 3);
+}
+caption {
+	border-bottom: none;
+}
